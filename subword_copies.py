@@ -30,7 +30,7 @@ def subword_start():
                 print("{} is negative, try again.\
 ". format(subword_start_int))
             else:
-                if (subword_start_int <= len(main_word)):
+                if (subword_start_int < len(main_word)):
                     # check if start is not bigger than word
                     print("\n")
                     subword_size()
